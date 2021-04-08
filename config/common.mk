@@ -105,7 +105,8 @@ PRODUCT_PACKAGES += \
 
 # Awaken packages
 PRODUCT_PACKAGES += \
-    AwakenWallpaperStub
+    AwakenWallpaperStub \
+    TouchGestures
 
 # Charger
 ifeq ($(USE_PIXEL_CHARGER),true)
