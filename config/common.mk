@@ -210,6 +210,7 @@ PRODUCT_PACKAGE_OVERLAYS += \
     vendor/awaken/overlay/no-rro
 
 PRODUCT_PACKAGES += \
+    CustomPixelLauncherOverlay \
     DocumentsUIOverlay \
     NetworkStackOverlay
 
