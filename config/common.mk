@@ -106,6 +106,10 @@ $(call inherit-product, vendor/awaken/config/bootanimation.mk)
 PRODUCT_PACKAGES += \
     build-manifest
 
+# BtHelper
+PRODUCT_PACKAGES += \
+    BtHelper
+
 # Awaken packages
 PRODUCT_PACKAGES += \
     AwakenWallpaperStub \
