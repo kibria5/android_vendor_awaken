@@ -239,6 +239,7 @@ PRODUCT_PACKAGES += \
     NetworkStackOverlay \
     NexusLauncherResOverlay
 
+include vendor/awaken/certification/config.mk
 include vendor/awaken/config/branding.mk
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
