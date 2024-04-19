@@ -1,5 +1,5 @@
-# Inherit common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common.mk)
+# Inherit common Awaken stuff
+$(call inherit-product, vendor/awaken/config/common.mk)
 
-# Inherit Lineage car device tree
-$(call inherit-product, device/lineage/car/lineage_car.mk)
+# Inherit Awaken car device tree
+$(call inherit-product, device/awaken/car/awaken_car.mk)
